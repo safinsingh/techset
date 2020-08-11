@@ -1,0 +1,22 @@
+{
+  "name": "techset",
+  "displayName": "Techset",
+  "description": "My personal VSCode theme",
+  "publisher": "Safin",
+  "version": "1.1.0",
+  "engines": {
+    "vscode": "^1.47.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Techset",
+        "uiTheme": "vs-dark",
+        "path": "./themes/techset.json"
+      }
+    ]
+  }
+}
