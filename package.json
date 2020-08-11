@@ -3,7 +3,7 @@
   "displayName": "Techset",
   "description": "My personal VSCode theme",
   "publisher": "Safin",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "engines": {
     "vscode": "^1.47.0"
   },
@@ -24,6 +24,16 @@
         "label": "Techset Regular Weight",
         "uiTheme": "vs-dark",
         "path": "./themes/techset-regular-weight.json"
+      },
+      {
+        "label": "Techset Line Nums",
+        "uiTheme": "vs-dark",
+        "path": "./themes/techset-line-nums.json"
+      },
+      {
+        "label": "Techset Regular Weight Line Nums",
+        "uiTheme": "vs-dark",
+        "path": "./themes/techset-reg-weight-line-nums.json"
       }
     ]
   }
