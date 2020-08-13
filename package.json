@@ -8,7 +8,7 @@
     "vscode": "^1.47.0"
   },
   "scripts": {
-    "dev": "node scripts/build.js"
+    "build": "node scripts/build.js"
   },
   "repository": {
     "url": "https://github.com/safinsingh/techset"
@@ -21,12 +21,12 @@
       {
         "label": "Techset",
         "uiTheme": "vs-dark",
-        "path": "./themes/techset.json"
+        "path": "./dist/techset.json"
       },
       {
-        "label": "Techset Light",
+        "label": "Techset Alt",
         "uiTheme": "vs-dark",
-        "path": "./dist/techset-light.json"
+        "path": "./dist/techset-alt.json"
       },
       {
         "label": "Techset Lines",
@@ -34,15 +34,18 @@
         "path": "./dist/techset-lines.json"
       },
       {
+        "label": "Techset Light",
+        "uiTheme": "vs-dark",
+        "path": "./dist/techset-light.json"
+      },
+      {
         "label": "Techset Lines Light",
         "uiTheme": "vs-dark",
         "path": "./dist/techset-lines-light.json"
-      },
-      {
-        "label": "Techset Alt",
-        "uiTheme": "vs-dark",
-        "path": "./dist/techset-alt.json"
       }
     ]
+  },
+  "devDependencies": {
+    "chalk": "^4.1.0"
   }
 }
