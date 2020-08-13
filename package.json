@@ -7,6 +7,9 @@
   "engines": {
     "vscode": "^1.47.0"
   },
+  "scripts": {
+    "dev": "node scripts/build.js"
+  },
   "repository": {
     "url": "https://github.com/safinsingh/techset"
   },
@@ -21,24 +24,24 @@
         "path": "./themes/techset.json"
       },
       {
-        "label": "Techset Regular Weight",
+        "label": "Techset Light",
         "uiTheme": "vs-dark",
-        "path": "./themes/techset-regular-weight.json"
+        "path": "./dist/techset-light.json"
       },
       {
-        "label": "Techset Line Nums",
+        "label": "Techset Lines",
         "uiTheme": "vs-dark",
-        "path": "./themes/techset-line-nums.json"
+        "path": "./dist/techset-lines.json"
       },
       {
-        "label": "Techset Regular Weight Line Nums",
+        "label": "Techset Lines Light",
         "uiTheme": "vs-dark",
-        "path": "./themes/techset-reg-weight-line-nums.json"
+        "path": "./dist/techset-lines-light.json"
       },
       {
         "label": "Techset Alt",
         "uiTheme": "vs-dark",
-        "path": "./themes/techset-alt.json"
+        "path": "./dist/techset-alt.json"
       }
     ]
   }

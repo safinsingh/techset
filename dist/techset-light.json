@@ -1,5 +1,5 @@
 {
-  "name": "Techset Horizon",
+  "name": "Techset Light",
   "type": "dark",
   "colors": {
     "editor.foreground": "#eeffff",
@@ -168,7 +168,7 @@
     {
       "name": "Tags",
       "scope": "entity.name.tag",
-      "settings": { "foreground": "#F04444", "fontStyle": "bold" }
+      "settings": { "foreground": "#F04444" }
     },
     {
       "name": "Static types",
@@ -178,7 +178,7 @@
     {
       "name": "Tag attributes",
       "scope": "entity.other.attribute-name",
-      "settings": { "foreground": "#FC78A8", "fontStyle": "bold" }
+      "settings": { "foreground": "#FC78A8" }
     },
     {
       "name": "Inherited classes",
@@ -206,7 +206,7 @@
     {
       "name": "Keywords",
       "scope": "keyword",
-      "settings": { "foreground": "#CF74FF", "fontStyle": "bold" }
+      "settings": { "foreground": "#CF74FF" }
     },
     {
       "name": "Operators",
@@ -241,7 +241,7 @@
     {
       "name": "Markup bold",
       "scope": "markup.bold",
-      "settings": { "foreground": "#CF74FF", "fontStyle": "bold" }
+      "settings": { "foreground": "#CF74FF" }
     },
     {
       "name": "Markup italics",
@@ -261,7 +261,7 @@
     {
       "name": "Storage keywords",
       "scope": "storage",
-      "settings": { "foreground": "#CF74FF", "fontStyle": "bold" }
+      "settings": { "foreground": "#CF74FF" }
     },
     {
       "name": "Strings",
@@ -321,7 +321,7 @@
     {
       "name": "Tag brackets",
       "scope": "punctuation.definition.tag",
-      "settings": { "foreground": "#FFF", "fontStyle": "bold" }
+      "settings": { "foreground": "#FFF" }
     },
     {
       "name": "Key/value separators",

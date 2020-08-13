@@ -1,0 +1,54 @@
+{
+  "techset": {
+    "changes": {},
+    "tokenColors": []
+  },
+  "techset-alt": {
+    "changes": {
+      "statusBar.foreground": "#E95378",
+      "activityBar.foreground": "#E95378"
+    },
+    "tokenColors": []
+  },
+  "techset-lines": {
+    "changes": {
+      "editorLineNumber.foreground": "#D5D8DA55"
+    },
+    "tokenColors": []
+  },
+  "techset-light": {
+    "changes": {},
+    "tokenColors": [
+      {
+        "name": "Tags",
+        "scope": "entity.name.tag",
+        "settings": { "foreground": "#F04444" }
+      },
+      {
+        "name": "Tag attributes",
+        "scope": "entity.other.attribute-name",
+        "settings": { "foreground": "#FC78A8" }
+      },
+      {
+        "name": "Keywords",
+        "scope": "keyword",
+        "settings": { "foreground": "#CF74FF" }
+      },
+      {
+        "name": "Markup bold",
+        "scope": "markup.bold",
+        "settings": { "foreground": "#CF74FF" }
+      },
+      {
+        "name": "Storage keywords",
+        "scope": "storage",
+        "settings": { "foreground": "#CF74FF" }
+      },
+      {
+        "name": "Tag brackets",
+        "scope": "punctuation.definition.tag",
+        "settings": { "foreground": "#FFF", "fontStyle": "bold" }
+      }
+    ]
+  }
+}
