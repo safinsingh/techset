@@ -1,0 +1,91 @@
+{
+  "techset": {
+    "colors": {},
+    "tokenColors": []
+  },
+  "techset-alt": {
+    "colors": {
+      "statusBar.foreground": "#3EE2F0",
+      "activityBar.foreground": "#3EE2F0"
+    },
+    "tokenColors": []
+  },
+  "techset-lines": {
+    "colors": {
+      "editorLineNumber.foreground": "#D5D8DA55"
+    },
+    "tokenColors": []
+  },
+  "techset-light": {
+    "colors": {},
+    "tokenColors": [
+      {
+        "name": "Tags",
+        "scope": "entity.name.tag",
+        "settings": { "foreground": "#F04444" }
+      },
+      {
+        "name": "Tag attributes",
+        "scope": "entity.other.attribute-name",
+        "settings": { "foreground": "#FC78A8" }
+      },
+      {
+        "name": "Keywords",
+        "scope": "keyword",
+        "settings": { "foreground": "#CF74FF" }
+      },
+      {
+        "name": "Markup bold",
+        "scope": "markup.bold",
+        "settings": { "foreground": "#CF74FF" }
+      },
+      {
+        "name": "Storage keywords",
+        "scope": "storage",
+        "settings": { "foreground": "#CF74FF" }
+      },
+      {
+        "name": "Tag brackets",
+        "scope": "punctuation.definition.tag",
+        "settings": { "foreground": "#FFF" }
+      }
+    ]
+  },
+  "techset-lines-light": {
+    "colors": {
+      "editorLineNumber.foreground": "#D5D8DA55"
+    },
+    "tokenColors": [
+      {
+        "name": "Tags",
+        "scope": "entity.name.tag",
+        "settings": { "foreground": "#F04444" }
+      },
+      {
+        "name": "Tag attributes",
+        "scope": "entity.other.attribute-name",
+        "settings": { "foreground": "#FC78A8" }
+      },
+      {
+        "name": "Keywords",
+        "scope": "keyword",
+        "settings": { "foreground": "#CF74FF" }
+      },
+      {
+        "name": "Markup bold",
+        "scope": "markup.bold",
+        "settings": { "foreground": "#CF74FF" }
+      },
+      {
+        "name": "Storage keywords",
+        "scope": "storage",
+        "settings": { "foreground": "#CF74FF" }
+      },
+      {
+        "name": "Tag brackets",
+        "scope": "punctuation.definition.tag",
+        "settings": { "foreground": "#FFF" }
+      }
+    ]
+  }
+}
