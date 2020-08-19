@@ -42,6 +42,11 @@
         "label": "Techset Lines Light",
         "uiTheme": "vs-dark",
         "path": "./dist/techset-lines-light.json"
+      },
+      {
+        "label": "Techset Dark",
+        "uiTheme": "vs-dark",
+        "path": "./dist/techset-dark.json"
       }
     ]
   },
